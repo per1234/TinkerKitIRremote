@@ -1,3 +1,17 @@
+This is TinkerKitIRremote library for Arduino
+
+It's a simplified and wrapped version of shirriff/Arduino-IRremote
+
+i.e. you don't create object from IRrecv class and call methods of them, instead you call the wrapper functions. Everything is much simplier!
+
+The class is made so it only fits with TinkerKit remote controllers sold in Arduino store. In this way it saves quite a few bytes after compilation, you can use these precious bytes for more important stuff.
+
+There's also definitions of button codes, for the TinkerKit controllers.
+
+
+Below is the original README
+**********************************************
+
 This is the IRremote library for the Arduino.
 
 To download from github (http://github.com/shirriff/Arduino-IRremote), click on the "Downloads" link in the upper right, click "Download as zip", and get a zip file.  Unzip it and rename the directory shirriff-Arduino-IRremote-nnn to IRremote
