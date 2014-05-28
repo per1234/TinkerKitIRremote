@@ -1,6 +1,5 @@
 #include <IRremote.h>
 #include <IRremoteTools.h>
-#include <Svante.h>
 /*
 *  Demo for TinkerKitIRremote
 *  Make sure you are using TinkerKit remote,
@@ -17,7 +16,7 @@
 *  etc etc
 *
 */
-const int RECV_PIN = DP0;  //Define the receiver pin
+const int RECV_PIN = 13;  //Define the receiver pin
 const unsigned long TIMER_MAX=200;  //Timeout for when no repeat frame is received
 
 boolean pressed=false;
