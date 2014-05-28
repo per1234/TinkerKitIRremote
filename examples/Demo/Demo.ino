@@ -1,6 +1,5 @@
 #include <IRremote.h>
 #include <IRremoteTools.h>
-
 /*
 *  Demo for TinkerKitIRremote
 *  Make sure you are using TinkerKit remote,
@@ -30,7 +29,7 @@ void setup(){
 
 }
 void loop(){
-  if(IRrecived()){  //if a signal is received 
+  if(IRreceived()){  //if a signal is received 
     unsigned long command=getIRresult();  //decode the signal
     IRtimer=millis();
     pressed=true;

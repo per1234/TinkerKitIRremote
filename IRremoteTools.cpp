@@ -10,7 +10,7 @@ void beginIRremote(int recvpin){
 	irrecv->enableIRIn(); // Start the receiver
 }
 
-bool IRrecived(){
+bool IRreceived(){
 	return irrecv->decode(&results);
 }
 
