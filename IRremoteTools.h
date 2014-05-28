@@ -12,7 +12,7 @@
 
 extern void beginIRremote(int recvpin);
 
-extern bool IRrecived();
+extern bool IRreceived();
 
 extern void resumeIRremote();
 
